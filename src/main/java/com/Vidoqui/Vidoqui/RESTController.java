@@ -13,7 +13,7 @@ import java.net.URI;
 
 @RestController
 @RequestMapping(path = "/hospitalstorage")
-public class RESTControl {
+public class RESTController {
 
     @Autowired
     private  HospitalDAO hospitalDAO;

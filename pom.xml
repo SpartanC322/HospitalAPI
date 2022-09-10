@@ -14,7 +14,12 @@
 	<name>Vidoqui</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<!-- We specify Java 1.6 or later, otherwise the build will fail -->
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+
+		<!-- We also specify the file encoding of our source files, to avoid a warning -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>

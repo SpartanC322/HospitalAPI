@@ -12,13 +12,13 @@ public class HospitalDAO {
     static
     {
         hospitals.getHospitals().add(
-                new Hospital("Laughing Democritus Hospital", new Point(35,51)));
+                new Hospital("Laughing Democritus Hospital", 35,51));
 
         hospitals.getHospitals().add(
-                new Hospital("Crying Heraclitus Hospital", new Point(-40,12)));
+                new Hospital("Crying Heraclitus Hospital", -40,12));
 
         hospitals.getHospitals().add(
-                new Hospital("Seven Sages Hospital", new Point(0,-33)));
+                new Hospital("Seven Sages Hospital", 0,-33));
     }
 
     public HospitalStorage getAllHospitals()
