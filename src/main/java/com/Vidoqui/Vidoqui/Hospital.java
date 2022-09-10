@@ -6,9 +6,9 @@ public class Hospital {
     private String name;
     private Point location;
 
-    public Hospital(String name, int x, int y) {
+    public Hospital(String name, Point location) {
         this.name = name;
-        this.location = new Point(x, y);
+        this.location = location;
     }
 
     public String getName() {
