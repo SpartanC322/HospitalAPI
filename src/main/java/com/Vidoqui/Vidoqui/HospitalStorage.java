@@ -3,6 +3,7 @@ package com.Vidoqui.Vidoqui;
 import java.util.ArrayList;
 import java.util.List;
 
+//Object containing list of all hospitals
 public class HospitalStorage {
     private List<Hospital> hospitalList;
 

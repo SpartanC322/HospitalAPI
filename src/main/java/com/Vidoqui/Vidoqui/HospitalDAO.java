@@ -6,6 +6,7 @@ import java.awt.*;
 
 @Repository
 
+//Hospital Data Access Object
 public class HospitalDAO {
     private static HospitalStorage hospitals = new HospitalStorage();
 
