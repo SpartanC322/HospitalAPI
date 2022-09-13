@@ -16,7 +16,14 @@ public class Hospital {
 
     public Hospital(String name, Point location) {
         this.name = name;
-        this.location = location;
+        if (location.x > 100 || location.x < -100 || location.y > 80 || location.y < -80)
+        {
+            throw new IllegalArgumentException();
+        }
+        else
+        {
+            this.location = location;
+        }
         this.distance = 0;
     }
 
